@@ -1,0 +1,36 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"fsharp","items":[{"aliases":[],"languageName":"fsharp","name":"fsharp"}]}}
+
+#!fsharp
+
+printfn "abc data"
+
+#!fsharp
+
+let a = 2 + 2;;
+
+#!fsharp
+
+// variable biding
+let number = 42;
+// mutable variable
+let mutable name = "johndoe";;
+
+#!fsharp
+
+//constant ?
+[<Literal>]
+let VALUE = 222
+
+#!fsharp
+
+name <- "vitor"
+
+#!fsharp
+
+name
+
+#!fsharp
+
+value
